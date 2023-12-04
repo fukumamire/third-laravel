@@ -1,0 +1,52 @@
+/* ヘッダー全体のスタイル */
+.header {
+  background: #000;
+}
+
+/* ヘッダー内部のスタイル */
+.header__inner {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+}
+
+/* ヘッダー内のユーティリティ領域のスタイル */
+.header-utilities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ヘッダー内のロゴのスタイル */
+.header__logo {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* ヘッダー内のユーティリティ領域内のナビゲーションのスタイル */
+.header-utilities nav {
+  width: 18%;
+}
+/* ヘッダー内のメインナビゲーションのスタイル */
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* メインナビゲーション内のリンクのスタイル */
+.header-nav__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* メインナビゲーション内のボタンのスタイル */
+.header-nav__button {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
