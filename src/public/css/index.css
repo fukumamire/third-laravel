@@ -1,5 +1,6 @@
 /* トップページ用のCSSファイル */
 .attendance__alert--success {
+/*  成功した状態に適用されるスタイル */
   padding: 10px 30px;
   border-color: #badbcc;
   background-color: #d1e7dd;
@@ -7,6 +8,7 @@
 }
 
 .attendance__alert--danger {
+
   padding: 10px 0;
   border-color: #f5c2c7;
   background-color: #f8d7da;
@@ -14,6 +16,7 @@
 }
 
 .attendance__alert--danger ul {
+    /* .attendance__alert--danger クラスを持つ要素自体にスタイルが適用され、その中の ul 要素にも追加のスタイルが適用 */ 
   margin: 0;
 }
 
